@@ -10,13 +10,11 @@ public class Turret : MonoBehaviour
         
     }
 
-    public float speed = 10f;
+    public float speed = 15f;
     // Update is called once per frame
     void Update()
     {
         float direction = Input.GetAxis("Vertical");
-
-        //transform.Rotate(0, 0, speed * Time.deltaTime);
         transform.Rotate(0,0, direction * speed * Time.deltaTime);
     }
 }

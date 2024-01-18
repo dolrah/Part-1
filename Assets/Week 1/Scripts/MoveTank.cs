@@ -23,7 +23,7 @@ public class MoveTank : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(missilePrefab, Spawn.position,transform.rotation);
+            Instantiate(missilePrefab, Spawn.position,Spawn.rotation);
 
         }
     }
