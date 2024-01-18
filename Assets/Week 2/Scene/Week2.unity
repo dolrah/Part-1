@@ -436,6 +436,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8314425996755781726, guid: 97eb414b34954be4eb9687d2fac5911d, type: 3}
+      propertyPath: missilePrefab
+      value: 
+      objectReference: {fileID: 4989391009884671592, guid: 30d18da86160a8e4a8cbe7780d63ae60, type: 3}
     - target: {fileID: 9146847403223742558, guid: 97eb414b34954be4eb9687d2fac5911d, type: 3}
       propertyPath: m_Name
       value: Tank
