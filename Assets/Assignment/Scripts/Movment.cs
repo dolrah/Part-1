@@ -13,14 +13,12 @@ public class Movment : MonoBehaviour
     //this is what makes the body actually move
     public float force = 149f;
 
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
     {
+        //gets the x and y values of the player
         movement.x = Input.GetAxis("Horizontal");
        movement.y= Input.GetAxis("Vertical");
           
@@ -28,6 +26,7 @@ public class Movment : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //moves the duck based on the players input
         rigidbody.AddForce(movement * force * Time.deltaTime);
     }
 }
